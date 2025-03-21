@@ -20,9 +20,10 @@
 
   <body>
     <div class="main">
+      <!-- Sidebar -->
       <div class="sidebar">
         <nav class="nav">
-          <div class="nav-option" style="opacity: 1">
+          <div class="nav-option active">
             <i class="fa-solid fa-house"></i>
             <a href="#">Home</a>
           </div>
@@ -31,18 +32,19 @@
             <a href="#">Search</a>
           </div>
         </nav>
+
         <div class="library">
           <div class="options">
             <div class="lib-option">
               <img src="./assets/library_icon.png" alt="Library Icon" />
-              <!-- Fixed path -->
-              <a href="#">Your library</a>
+              <a href="#">Your Library</a>
             </div>
             <div class="icons">
               <i class="fa-solid fa-plus"></i>
               <i class="fa-solid fa-arrow-right"></i>
             </div>
           </div>
+
           <div class="lib-boxes">
             <div class="box">
               <p class="box-p1">Create your first playlist</p>
@@ -58,134 +60,103 @@
         </div>
       </div>
 
+      <!-- Main Content -->
       <div class="main-content">
+        <!-- Navigation Bar -->
         <div class="sticky-nav">
-          <div class="sticky-nav-icons" class = "hide">
-            <!-- <div class="nav-icons"> -->
-            <!-- Fixed path -->
+          <!-- Navigation Icons -->
+          <div class="nav-icons">
             <img src="./assets/backward_icon.png" alt="Backward Icon" />
-            <img src="./assets/forward_icon.png" class = "hide">
-            <!-- Fixed path -->
+            <img src="./assets/forward_icon.png" class="hide" alt="Forward Icon" />
           </div>
-          <div class="sticky-nav-options">
-            <!-- You can add additional options here -->
-            <button class="badge hide" >Explore Premium </button>
+
+          <!-- Navigation Options -->
+          <div class="nav-options">
+            <button class="badge hide">Explore Premium</button>
             <button class="dark-badge">
               <i class="fa-solid fa-circle-down"></i> Install App
             </button>
-            <i class="fa-regular fa-user"></i>
+            <i class="fa-regular fa-user profile-icon"></i>
           </div>
         </div>
 
-            <h2>Recently Played</h2>
-            <div class="cards-container">
-                  <div class="card">
-                    <img src="assets/card1img.jpeg">
-                    <p class="card-title">Top 50 - gobal</p>
-                    <p class="card-info"> your daily update of the most played...</p>
-
-                </div>
-        </div>
-
-        <h2 >Trending now near you</h2>
+        <!-- Cards Section -->
+        <h2>Recently Played</h2>
         <div class="cards-container">
-              <div class="card">
-                <img src="assets/card2img.jpeg">
-                <p class="card-title">Top 50 - gobal</p>
-                <p class="card-info"> your daily update of the most played...</p>
-
-            </div>
-
-            <div class="cards-container">
-              <div class="card">
-                <img src="assets/card3img.jpeg">
-                <p class="card-title">Top 50 - gobal</p>
-                <p class="card-info"> your daily update of the most played...</p>
-
-            </div>
-
-            <!-- < class="cards-container"> -->
-              <div class="card">
-                <img src="assets/card4img.jpeg">
-                <p class="card-title">Top 50 - gobal</p>
-                <p class="card-info"> your daily update of the most played...</p>
-
-            </div>
-
-            <div class="cards-container">
-              <div class="card">
-                <img src="assets/card3img.jpeg">
-                <p class="card-title">Top 50 - gobal</p>
-                <p class="card-info"> your daily update of the most played...</p>
-
-            </div>
-
-            <div class="cards-container">
-              <div class="card">
-                <img src="assets/card4img.jpeg">
-                <p class="card-title">Top 50 - gobal</p>
-                <p class="card-info"> your daily update of the most played...</p>
-
-            </div>
-
-            <h2>Features Chart</h2>
-            <div class="cards-container">
-                  <div class="card">
-                    <img src="assets/card5img.jpeg">
-                    <p class="card-title">Top 50 - gobal</p>
-                    <p class="card-info"> your daily update of the most played...</p>
-
-                </div>
-
-                  <div class="card">
-                    <img src="assets/card6img.jpeg">
-                    <p class="card-title">Top 50 - gobal</p>
-                    <p class="card-info"> your daily update of the most played...</p>
-    
-                </div>
-
-                <div class="card">
-                  <img src="assets/card6img.jpeg">
-                  <p class="card-title">Top 50 - gobal</p>
-                  <p class="card-info"> your daily update of the most played...</p>
-  
-              </div>
+          <div class="card">
+            <img src="assets/card1img.jpeg" alt="Album Cover" />
+            <p class="card-title">Top 50 - Global</p>
+            <p class="card-info">Your daily update of the most played...</p>
+          </div>
         </div>
-       
-        <div class="footer"></div>
-        <div class="line"></div>
-            
 
-    </div>
+        <h2>Trending Now Near You</h2>
+        <div class="cards-container">
+          <div class="card">
+            <img src="assets/card2img.jpeg" alt="Trending Cover" />
+            <p class="card-title">Top 50 - Global</p>
+            <p class="card-info">Your daily update of the most played...</p>
+          </div>
+          <div class="card">
+            <img src="assets/card3img.jpeg" alt="Trending Cover" />
+            <p class="card-title">Top 50 - Global</p>
+            <p class="card-info">Your daily update of the most played...</p>
+          </div>
+          <div class="card">
+            <img src="assets/card4img.jpeg" alt="Trending Cover" />
+            <p class="card-title">Top 50 - Global</p>
+            <p class="card-info">Your daily update of the most played...</p>
+          </div>
+        </div>
 
-        <!-- </div> -->
+        <h2>Featured Charts</h2>
+        <div class="cards-container">
+          <div class="card">
+            <img src="assets/card5img.jpeg" alt="Chart Cover" />
+            <p class="card-title">Top 50 - Global</p>
+            <p class="card-info">Your daily update of the most played...</p>
+          </div>
+          <div class="card">
+            <img src="assets/card6img.jpeg" alt="Chart Cover" />
+            <p class="card-title">Top 50 - Global</p>
+            <p class="card-info">Your daily update of the most played...</p>
+          </div>
+        </div>
+
+        <div class="footer">
+          <div class="line"></div>
+        </div>
       </div>
-
-      <div class="music-player">Music Player</div>
-
-
-      <div class="album"></div>
-
-
-      <div class="player"></div>
-      <div class="player-controls"></div>
-      <img src="./assets/player_icon1.png" alt="player-control-icon">
-      <img src="./assets/player_icon2.png" alt="player-control-icon">
-      <img src="./assets/player_icon3.png" alt="player-control-icon">
-      <img src="./assets/player_icon4.png" alt="player-control-icon">
-      <img src="./assets/player_icon5.png" alt="player-control-icon">
-
-      <div class="playback-bar">
-
-        <span class="curr-time">00:00</span>
-        <input type = "range" min="0" max = "100" class="progress-bar" step="1">  
-        <span class = "tot-time">3:33</span>
-      </div> 
-
-
-
-
-      <div class="controls"></div>
     </div>
-  </body>
-</html>
+
+    <!-- Music Player -->
+  <!-- Music Player -->
+<div class="music-player">
+  <div class="album">
+    <p class="song-title">Top 50 - Global</p>
+  </div>
+
+  <div class="player">
+    <div class="player-controls">
+      <button id="prev"><i class="fa-solid fa-backward"></i></button>
+      <button id="play-pause"><i class="fa-solid fa-play"></i></button>
+      <button id="next"><i class="fa-solid fa-forward"></i></button>
+    </div>
+    <div class="playback-bar">
+      <span class="curr-time">00:00</span>
+      <input type="range" min="0" max="100" class="progress-bar" step="1" />
+      <span class="tot-time">3:33</span>
+    </div>
+  </div>
+
+  <div class="controls">
+    <button id="mute-btn">
+      <i class="fa-solid fa-volume-high"></i>
+    </button>
+    <input type="range" min="0" max="1" step="0.1" id="volume-control" />
+  </div>
+</div>
+
+    <script src="script.js"></script>
+  </body>  
+
